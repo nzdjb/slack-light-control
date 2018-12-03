@@ -10,9 +10,9 @@ Control Christmas lights from Slack
 
 ## Usage
 
-To issue a message to the bot, send it its name, then the command:
+To issue a message to the bot, send it its name, an exclamation mark, then the command:
 
-`@lightbot fast`
+`@lightbot !fast`
 
 Valid commands are:
 * fast: blink the lights quickly
@@ -20,6 +20,8 @@ Valid commands are:
 * slow: blink the lights slowly
 * on: set the lights to solid on
 * off: turn the lights off
+
+Messages that don't begin with an exclamation mark will be flashed out in morse code.
 
 ## Credit
 
