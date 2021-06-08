@@ -1,7 +1,7 @@
 const five = require('johnny-five');
 const board = new five.Board({ 'repl':  false });
 const { RTMClient } = require('@slack/rtm-api');
-const morsify = require('morsify');
+const morsify = require('morse-decoder');
 
 const token = process.env.SLACK_TOKEN;
 

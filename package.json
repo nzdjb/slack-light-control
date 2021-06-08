@@ -10,8 +10,8 @@
   "license": "BSD-3-Clause",
   "repository": "https://github.com/nzdjb/slack-light-control",
   "dependencies": {
-    "@slack/rtm-api": "^5.0.0",
-    "johnny-five": "^1.0.0",
-    "morsify": "^1.0.0"
+    "@slack/rtm-api": "^6.0.0",
+    "johnny-five": "^2.0.0",
+    "morse-decoder": "^3.0.0"
   }
 }
