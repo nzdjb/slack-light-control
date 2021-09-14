@@ -15,6 +15,7 @@
     "morse-decoder": "^3.0.0"
   },
   "resolutions": {
-    "axios": "^0.21.4"
+    "axios": "^0.21.4",
+    "ws": "^5.2.3"
   }
 }
